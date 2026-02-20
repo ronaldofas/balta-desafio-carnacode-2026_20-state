@@ -226,9 +226,9 @@ namespace DesignPatternChallenge
         // Problema: Adicionar nova operação = novo método com switch gigante
     }
 
-    class Program
+    public class LegacyProgram
     {
-        static void Main(string[] args)
+        public static void ExecuteLegacy()
         {
             Console.WriteLine("=== Sistema de Gerenciamento de Pedidos ===");
 
